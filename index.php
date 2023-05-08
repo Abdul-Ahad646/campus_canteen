@@ -1,0 +1,10 @@
+<?php 
+    include_once($_SERVER['DOCUMENT_ROOT'] .DIRECTORY_SEPARATOR .'config.php')
+?>
+
+<ul>
+   
+    <li>Go to <a href=<?php echo "admin/layout_1/LTR/material/full/app_dashboard.php"?>>Admin</a></li>
+    <li>Go to <a href=<?php echo "canteen-frontend/layout_1/index.html"?>>Frontend</a></li>
+    
+</ul>
