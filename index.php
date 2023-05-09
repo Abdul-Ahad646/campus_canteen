@@ -5,6 +5,6 @@
 <ul>
    
     <li>Go to <a href=<?php echo "admin/layout_1/LTR/material/full/app_dashboard.php"?>>Admin</a></li>
-    <li>Go to <a href=<?php echo "canteen-frontend/layout_1/index.html"?>>Frontend</a></li>
+    <li>Go to <a href=<?php echo "canteen-frontend/layout_1/index.php"?>>Frontend</a></li>
     
 </ul>

@@ -1,7 +1,8 @@
+<?php include_once($_SERVER['DOCUMENT_ROOT'].DIRECTORY_SEPARATOR.'config.php') ?>
 
 <!DOCTYPE html>
 <html lang="en">
-
+<?php include_once($partials_frontend.'head.php') ?>
 <body>
 
     <nav class="navbar navbar-expand-lg navber-light bg-light fixed-top">

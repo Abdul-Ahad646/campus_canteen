@@ -10,6 +10,7 @@ function dd($var){
    d($var);
    die();
 }
-$webroot = "http://limitless-templating.test".DIRECTORY_SEPARATOR;
+$webroot = "http://campus_canteen.test".DIRECTORY_SEPARATOR;
 $docroot = $_SERVER['DOCUMENT_ROOT'];
-$partials = $docroot.DIRECTORY_SEPARATOR.'partials'.DIRECTORY_SEPARATOR;
+$partials = $docroot.DIRECTORY_SEPARATOR.'admin'.DIRECTORY_SEPARATOR . 'partials'. DIRECTORY_SEPARATOR;
+$partials_frontend = $docroot.DIRECTORY_SEPARATOR.'canteen-frontend'.DIRECTORY_SEPARATOR.'partials'.DIRECTORY_SEPARATOR;
