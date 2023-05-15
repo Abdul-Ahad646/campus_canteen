@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navber-light bg-light fixed-top">
+<nav class="navbar navbar-expand-lg navber-light bg-light  ">
         <div class="container">
           <a class="navbar-brand" href="#"><span class="text-warning">Cumpus</span>Canteen</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,13 +19,6 @@
               <li class="nav-item">
                 <a class="nav-link" href="contact.php">Contact</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Login.php">Log In</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="registration.php">Registration</a>
-              </li>
-              
              
             </ul>
          

@@ -1,49 +1,17 @@
+<?php include_once($_SERVER['DOCUMENT_ROOT'].DIRECTORY_SEPARATOR.'config.php') ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous" >
-    <link rel="stylesheet" href="../global_assets/css/style.css">
+<?php include_once($partials_frontend.'head.php') ?>
+
+<title>CumpusCanteen/Product</title>
+    
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navber-light bg-light fixed-top">
-        <div class="container">
-          <a class="navbar-brand" href="#"><span class="text-warning">Cumpus</span>Canteen</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="product.html">Product Category</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Login.html">Log In</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="registration.html">Registration</a>
-              </li>
-              
-             
-            </ul>
-         
-          </div>
-        </div>
-      </nav>
+
+
+    <?php include_once($partials_frontend.'nav.php') ?>
+
       <section id="productlist" class="productlist section-padding">
         <div class="container">
             <div class="row">
@@ -65,7 +33,7 @@
                       <img src="../global_assets/img/corn.jpg" alt=""  width="100%" height="100%">
                     </div>
                     <h3 class="card-title">Shup</h3>
-                    <a href="shup.html" class="btn bg-warning text-dark">See Product</a>
+                    <a href="shup.php" class="btn bg-warning text-dark">See Product</a>
                   </div>
                 </div>
               </div>
@@ -77,7 +45,7 @@
                       <img src="../global_assets/img/nasos.jpg" alt=""  width="100%" height="100%">
                     </div>
                     <h3 class="card-title">Nasos</h3>
-                    <a href="nasos.html" class="btn bg-warning text-dark">See Product</a>
+                    <a href="nasos.php" class="btn bg-warning text-dark">See Product</a>
                   </div>
                 </div>
               </div>
@@ -89,7 +57,7 @@
                       <img src="../global_assets/img/salad.jpg" alt=""  width="100%" height="100%">
                     </div>
                     <h3 class="card-title">Salad</h3>
-                    <a href="salad.html" class="btn bg-warning text-dark">See Product</a>
+                    <a href="salad.php" class="btn bg-warning text-dark">See Product</a>
                   </div>
                 </div>
               </div>
@@ -101,7 +69,7 @@
                       <img src="../global_assets/img/rice.jpg" alt=""  width="100%" height="100%">
                     </div>
                     <h3 class="card-title">Rice</h3>
-                    <a href="rice.html" class="btn bg-warning text-dark">See Product</a>
+                    <a href="rice.php" class="btn bg-warning text-dark">See Product</a>
                   </div>
                 </div>
               </div>
@@ -113,7 +81,7 @@
                       <img src="../global_assets/img/fruits.jpg" alt=""  width="100%" height="100%">
                     </div>
                     <h3 class="card-title">Fruits</h3>
-                    <a href="fruits.html" class="btn bg-warning text-dark">See Product</a>
+                    <a href="fruits.php" class="btn bg-warning text-dark">See Product</a>
                   </div>
                 </div>
               </div>
@@ -124,17 +92,13 @@
                       <img src="../global_assets/img/donat.jpg" alt=""  width="100%" height="100%">
                     </div>
                     <h3 class="card-title">Donat</h3>
-                    <a href="donat.html" class="btn bg-warning text-dark">See Product</a>
+                    <a href="donat.php" class="btn bg-warning text-dark">See Product</a>
                   </div>
                 </div>
               </div>      
           </div>
       </section>
-      <footer class="bg-dark p-2 text-center ">
-        <div class="container">
-          <p class="text-white">All Right Reserved @Cumpas-Canteen </p>
-        </div>
-      </footer>
+      <?php include_once($partials_frontend.'footer.php') ?>
 
     
 </body>
